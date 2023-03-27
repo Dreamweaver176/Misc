@@ -1,0 +1,50 @@
+Testing initial machine loading:
+Coca-Cola: (soda): 2
+Coca-Cola: (soda): 4
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 8
+Coca-Cola: (soda): 2
+Coca-Cola: (soda): 2
+Chips: (Snack): 3
+Chips: (Snack): 8
+______________________________
+Testing adding more items to existing machine:
+Coca-Cola: (soda): 7
+Coca-Cola: (soda): 4
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 8
+Coca-Cola: (soda): 2
+Coca-Cola: (soda): 2
+Chips: (Snack): 3
+Chips: (Snack): 8
+______________________________
+Testing removing enough items to bring slots below 1:
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 2
+Chips: (Snack): 1
+Chips: (Snack): 5
+______________________________
+Testing emptying slots and trying to extract more:
+Coca-Cola: (soda): 0
+Coca-Cola: (soda): 0
+Coca-Cola: (soda): 0
+Coca-Cola: (soda): 0
+Coca-Cola: (soda): 0
+Coca-Cola: (soda): 0
+Chips: (Snack): 0
+Chips: (Snack): 1
+______________________________
+Testing adding more items to emptied slots:
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 1
+Coca-Cola: (soda): 0
+Chips: (Snack): 3
+Chips: (Snack): 1
+______________________________
